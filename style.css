@@ -1,0 +1,111 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #333;
+  overflow: hidden;
+  padding: 20px 10px;
+}
+
+.header .logo {
+  float: left;
+  font-size: 24px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.header-right {
+  float: right;
+}
+
+.header-right a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.header-right a.active {
+  font-weight: bold;
+}
+
+h1 {
+  padding-top: 30px;
+  text-align: center;
+  color: #333;
+}
+
+h3 {
+  text-align: center;
+  color: #666;
+}
+
+#notaForm {
+  width: 400px;
+  margin: 0 auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+p {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #333;
+  text-align: center;
+}
+
+#resultadonome {
+  font-weight: bold;
+}
+
+#resultadoCalc {
+  font-style: italic;
+}
+
+#resultadoteste {
+  color: #000000;
+  font-weight: 800;
+}
+
+footer {
+  background-color: #333;
+  text-align: center;
+  padding: 5px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p{
+  color: #f5f5f5;
+}

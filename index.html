@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora de notas simples</title>
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <div class="header">
+        <a href="#default" class="logo">Sua logo</a>
+        <div class="header-right">
+            <a class="active" href="#home">Home</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
+        </div>
+    </div>
+
+    <h1>Bem vindo aluno(a)!</h1>
+    <br>
+    <h3>Calcule aqui sua nota : </h3>
+
+    <form id="notaForm">
+
+        <label for="nomeAluno">Nome do aluno(a):</label>
+        <input type="text" id="nomeAluno" name="nomeAluno" required><br><br>
+
+        <label for="nota1">Nota 1:</label>
+        <input type="number" id="nota1" name="nota1" required><br><br>
+
+        <label for="nota2">Nota 2:</label>
+        <input type="number" id="nota2" name="nota2" required><br><br>
+
+        <label for="nota3">Nota 3:</label>
+        <input type="number" id="nota3" name="nota3" required><br><br>
+
+        <label for="nota4">Nota 4:</label>
+        <input type="number" id="nota4" name="nota4" required><br><br>
+
+        <button type="button" onclick="calcularMedia()">Calcular Média</button>
+
+    </form>
+
+    <p id="resultadonome"></p>
+    <p id="resultadoCalc"></p>
+    <p id="resultadoteste"></p>
+
+    <footer>
+        <p>&copy; @PedroAugustodev 2024</p>
+    </footer>
+</body>
+
+</html>
